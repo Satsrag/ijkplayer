@@ -6,6 +6,9 @@ buildscript {
         maven {
             url 'https://plugins.gradle.org/m2'
         }
+        maven {
+            url 'https://groovy.jfrog.io/artifactory/libs-release/'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
